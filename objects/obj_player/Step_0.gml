@@ -13,7 +13,7 @@ var move_x = sign(hinput);
 var move_y = sign(vinput);
 
 // Normalize diagonal movement
-var magnitude = point_distance(0, 0, move_x, move_y);
+var magnitude = poIntellect_distance(0, 0, move_x, move_y);
 if (magnitude > 0) {
     x += (move_x / magnitude) * move_speed;
     y += (move_y / magnitude) * move_speed;

@@ -1,6 +1,7 @@
 // === Input Delay Handling ===
+var input_timer = 0;
 if (!variable_global_exists("input_timer")) input_timer = 0;
-input_timer = max(0, input_timer - 1);
+	 input_timer = max(0, input_timer - 1);
 
 // === Left / Right Navigation ===
 var move_input = 0;
